@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>DoM</title>
+</head>
+<body>
+
+  <p>2- RELLENAR TICKET DE CINE
+    <br>
+
+    Tienes una imagen de ticket de entrada para el cine, vacío, y unos inputs para rellenar: se te pide el nombre, fecha y la butaca (fila y asiento). Y al darle botón 'enviar', que se muestren en la imagen del ticket de entrada las opciones elegidas por el usuario. Esto implica maquetar el ticket mediante divs y CSS (puedes usar también una imagen de fondo para el papel).</p>
+<hr><hr>
+
+
+<h2>Completa tu Ticket de Entrada al Cine</h2>
+
+<form id="formulario" onsubmit="return false;">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombreInput" required><br>
+
+  <label for="fecha">Fecha:</label>
+  <input type="date" id="fechaInput" required><br>
+
+  <label for="butaca">Butaca:</label>
+  <input type="text" id="filaInput" placeholder="Fila" required>
+  <input type="text" id="asientoInput" placeholder="Asiento" required><br>
+
+  <button onclick="mostrarTicket()">Enviar</button>
+</form>
+
+<div id="ticket">
+  <div id="datos"></div>
+</div>
+    
+
+  <script src="main2.js"></script>
+</body>
+</html>

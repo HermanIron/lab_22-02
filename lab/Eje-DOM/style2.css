@@ -1,0 +1,19 @@
+#ticket {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 20px auto;
+  position: relative;
+  background-color: blue;
+  background-image: url('ticket.jpeg');
+  background-repeat: no-repeat;
+  background-size:120%;
+}
+#datos {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+  font-size: 16px;
+  text-align:left;
+}
